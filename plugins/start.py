@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>MAAF, AKSES NONTON VIDIO DITOLAK!!!\n\nKamu harus bergabung  dulu Baru Bisa Akses Vidio</b>"
+    text = "<b>MAAF, AKSES NONTON  DITOLAK!!!\n\nKamu harus bergabung  dulu Baru Bisa Akses Vidio</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
